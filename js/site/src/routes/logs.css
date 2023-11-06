@@ -1,0 +1,11 @@
+.log-container {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 4pt;
+    border: 1px solid gray;
+    padding: 1em;
+    overflow: scroll;
+    height: 80vh;
+    background-color: var(--white2);
+    width: 75vw;
+    max-width: 75vw;
+}

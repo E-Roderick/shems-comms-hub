@@ -1,0 +1,145 @@
+.device-listing {
+    padding: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.device-listing h3 {
+    margin-bottom: 0;
+}
+
+.device-mrid {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 12pt;
+    margin: 0.5em 1em 0 1em;
+}
+
+.device-content {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24pt;
+    width: 100%;
+    height: 100%;
+}
+
+.device-info {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.device-status {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.device-status-content {
+    margin-left: 1em;
+}
+
+.device-settings {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+}
+
+.device-update-settings {
+    margin-bottom: 2em;
+}
+
+.device-identity {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.device-identity h2 {
+    margin-bottom: 0.25em;
+}
+
+.device-status h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.device-contact {
+    margin-left: 1em
+}
+
+.device-settings-inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.device-settings-view {
+    margin-bottom: 2em;
+}
+
+#setting-update-btn {
+    margin-top: 1em;
+}
+
+input, label {
+    display: block;
+}
+
+.disabled label {
+    color: gray;
+}
+
+#device-setting-start {
+    width: 16.5em;
+}
+
+.device-settings-list {
+    padding-left: 0.5em;
+}
+
+.device-setting-listing {
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid gray;
+    border-radius: 4pt;
+}
+
+.device-setting-code {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    /* border-radius: 2pt;
+    background-color: var(--white2);
+    padding: 2pt; */
+}
+
+.setting-time-info {
+    margin-left: 0.5em;
+}
+
+.setting-creation-time {
+    font-size: 10pt;
+    font-style: italic;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .device-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .device-settings-inputs {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .device-settings-inputs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}

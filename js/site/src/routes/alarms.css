@@ -1,0 +1,30 @@
+.alarm-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.alarm-listing {
+    padding: 1em;
+}
+
+.alarm-device-details {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0.5em;
+}
+
+.alarm-listing h3 {
+    margin-bottom: 0;
+}
+
+.alarm-time {
+    font-size: 10pt;
+    font-style: italic;
+    color: gray;
+}
+
+.alarm-contents {
+    margin-left: 1em;
+}

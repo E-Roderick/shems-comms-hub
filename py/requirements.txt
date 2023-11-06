@@ -1,0 +1,7 @@
+wheel
+ifaddr
+lxml
+uvicorn[standard]
+fastapi
+paho-mqtt
+
