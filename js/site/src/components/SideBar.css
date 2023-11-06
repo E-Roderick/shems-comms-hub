@@ -1,0 +1,31 @@
+.sidebar {
+    background-color: var(--blue1);
+    height: 100%;
+    min-height: 100%;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    min-width: 14rem;
+    position: fixed;
+    -webkit-box-shadow: var(--shadow);
+    -moz-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+}
+
+#home-btn {
+    color: var(--blue3);
+    font-weight: 800;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 24pt;
+    margin: 0.5em 0;
+    padding: 0.2em 0.5em;
+    display: inline-block;
+    border-radius: 0.3em;
+    background-color: var(--white1);
+}
+
+#home-btn:hover {
+    color: var(--blue1);
+    background-color: var(--white2);
+}
